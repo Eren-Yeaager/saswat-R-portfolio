@@ -6,6 +6,9 @@ import {
   SiTailwindcss,
   SiReact,
   SiRedux,
+  SiGo,
+  SiAnthropic,
+  SiDocker,
 } from "react-icons/si";
 import Title from "./Title";
 import Link from "next/link";
@@ -15,11 +18,18 @@ import { Icon } from "lucide-react";
 export default function Projects() {
   const projects = [
     {
-      title: "Task M",
-      tech: [SiNextdotjs, SiMongodb, SiShadcnui, SiTailwindcss],
-      link: "https://task-m-r.vercel.app/",
-      cover: "/p2.png",
-      background: "bg-indigo-500",
+      title: "Postly",
+      tech: [
+        SiNextdotjs,
+        SiShadcnui,
+        SiTailwindcss,
+        SiGo,
+        SiAnthropic,
+        SiDocker,
+      ],
+      link: "https://postly-three.vercel.app/",
+      cover: "/p3.png",
+      background: "bg-blue-500",
     },
     {
       title: "Precis",
@@ -28,10 +38,17 @@ export default function Projects() {
       cover: "/p1.png",
       background: "bg-green-500",
     },
+    {
+      title: "Task M",
+      tech: [SiNextdotjs, SiMongodb, SiShadcnui, SiTailwindcss],
+      link: "https://task-m-r.vercel.app/",
+      cover: "/p2.png",
+      background: "bg-indigo-500",
+    },
   ];
 
   return (
-    <div className="py-10 p-5 sm:p-0">
+    <div className="py-10 p-5 sm:p-10">
       <Title
         text="Projects 🛠️"
         className="flex flex-col items-center justify-center rotate-6"
