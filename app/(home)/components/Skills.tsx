@@ -114,10 +114,6 @@ export default function Skills() {
         text: "GraphQL",
         Icon: SiGraphql,
       },
-      {
-        text: "Mongoose",
-        Icon: SiMongodb,
-      },
     ],
     "Programming Languages": [
       {
